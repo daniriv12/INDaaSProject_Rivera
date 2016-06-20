@@ -1,0 +1,1 @@
+<list><node id="service"><gate>AND</gate><dep>ServerA</dep><dep>ServerB</dep></node><node id="ServerA"><gate>OR</gate><dep>DNS1</dep><dep>Agg2</dep></node><node id="ServerB"><gate>OR</gate><dep>DNS3</dep><dep>Agg2</dep></node></list>

@@ -1,0 +1,15 @@
+<list>
+<node id="ownCloud"><gate>OR</gate><dep>Ceph</dep><dep>db</dep><dep>nfs</dep><dep>web</dep><dep>sync</dep><dep>lb</dep><dep>ldap</dep><dep>OpenStack</dep><dep>Switch</dep></node>
+<node id="Ceph"><gate>AND</gate><dep>M06</dep><dep>M07</dep></node>
+<node id="OpenStack"><gate>OR</gate><dep>M02</dep></node>
+<node id="db"><gate>AND</gate><dep>M03</dep></node>
+<node id="nfs"><gate>AND</gate><dep>M03</dep></node>
+<node id="web"><gate>AND</gate><dep>M04</dep></node> <!-- Remove second part and change to OR for actual env -->
+<node id="sync"><gate>AND</gate><dep>M04</dep></node><!-- Remove second part and change to OR for actual env -->
+<node id="lb"><gate>AND</gate><dep>M05</dep></node> 
+<node id="ldap"><gate>AND</gate><dep>M05</dep></node>
+
+</list>
+
+
+<!-- TO NOTE ABOUT THIS: STARTING STAGE-->

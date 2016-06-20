@@ -1,0 +1,17 @@
+<list>
+<node id="ownCloud"><gate>OR</gate><dep>Ceph</dep><dep>db</dep><dep>nfs</dep><dep>web</dep><dep>sync</dep><dep>lb</dep><dep>ldap</dep><dep>OpenStack</dep><dep>Switch</dep></node>
+<node id="Ceph"><gate>AND</gate><dep>M08</dep><dep>M09</dep><dep>M10</dep><dep>M11</dep><dep>M12</dep></node>
+<node id="OpenStack"><gate>OR</gate><dep>M02</dep></node>
+<node id="db"><gate>AND</gate><dep>M03</dep><dep>M04</dep></node>
+<node id="nfs"><gate>AND</gate><dep>M03</dep><dep>M04</dep></node>
+<node id="web"><gate>OR</gate><dep>M05</dep></node>
+<node id="sync"><gate>OR</gate><dep>M06</dep></node>
+<node id="lb"><gate>OR</gate><dep>M07</dep></node> 
+<node id="ldap"><gate>OR</gate><dep>M07</dep></node>
+
+
+
+</list>
+
+
+<!-- TO NOTE ABOUT THIS: A LITTLE BIT OF REDUNDANCY changes lots-->

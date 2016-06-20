@@ -1,0 +1,13 @@
+[['M03'], ['M04'], ['M05'], ['Switch'], ['M02'], ['M06', 'M07', 'M08', 'M09']]
+Individual probabilities for each risk group:
+{'M03': 0.01}
+{'M04': 0.01}
+{'M05': 0.01}
+{'Switch': 0.01}
+{'M02': 0.01}
+{'M06,M07,M08,M09,': 1.0000000000000002e-08}
+Probability of a service outtage (any risk group failing):
+4.90%
+
+
+
